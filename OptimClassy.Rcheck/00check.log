@@ -1,0 +1,81 @@
+* using log directory ‘/home/et18646/Documents/PhD/First_Year/TB1/SC1/Assessed_Coursework/OptimClassy.Rcheck’
+* using R version 4.3.2 (2023-10-31)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* R was compiled by
+    gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+    GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+* running under: Ubuntu 22.04.3 LTS
+* using session charset: UTF-8
+* checking for file ‘OptimClassy/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘OptimClassy’ version ‘1.0.0’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitattributes
+  .git
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘OptimClassy’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Binary_MVN: no visible global function definition for ‘mvrnorm’
+Binary_RING: no visible global function definition for ‘mvrnorm’
+Logistic_Regression_glm: no visible binding for global variable
+  ‘n_samples’
+Logistic_Regression_glm: no visible global function definition for
+  ‘glm’
+Logistic_Regression_glm: no visible global function definition for
+  ‘predict’
+Negative_Log_Likelihood_LINEAR: no visible binding for global variable
+  ‘sep_data’
+Negative_Log_Likelihood_QUAD: no visible binding for global variable
+  ‘Cone_Data’
+Negative_Log_Likelihood_QUAD: no visible binding for global variable
+  ‘Cone’
+generate_ring_points: no visible global function definition for ‘runif’
+generate_ring_points: no visible global function definition for ‘rnorm’
+Undefined global functions or variables:
+  Cone Cone_Data glm mvrnorm n_samples predict rnorm runif sep_data
+Consider adding
+  importFrom("stats", "glm", "predict", "rnorm", "runif")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+checkRd: (5) DOCUMENTATION.Rd:0-3: Must have a \description
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... OK
+* DONE
+Status: 1 WARNING, 3 NOTEs

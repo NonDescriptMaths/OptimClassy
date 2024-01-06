@@ -1,0 +1,8 @@
+Package: OptimClassy
+Type: Package
+Title: Optimisation for Classification
+Version: 1.0.0
+Author: Kieran Morris
+Maintainer: Kieran Morris <et18646@bristol.ac.uk>
+Description: This package contains 3 files: Optimise_function.r, which contains a primitive gradient descent algorithm and objective functions for logistic regression; Data generator, which contains
+License: GPL-3
